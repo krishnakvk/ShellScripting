@@ -1,0 +1,36 @@
+
+setting path
+
+export JAVA_HOME=
+export MAVEN_HOME=
+export PATH=
+
+
+vi /etc/profile/profile.d/java.sh
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-1.b14.el7_2.x86_64
+export PATH=$PATH:$JAVA_HOME/bin
+
+
+vi /etc/profile/profile.d/maven.sh
+maven.sh contains
+ export MAVEN_HOME=/usr/local/maven
+ export PATH=$PATH:$MAVEN_HOME/bin
+
+to reflect these changes we have to restart the machine.
+if you do not want restart type below command:
+
+source /etc/profile/profile.d/maven.sh
+source /etc/profile/profile.d/java.sh
+
+
+
+
+vi /.bashrc_profile , once you add the entry on this file, you have to restart the machine to 
+reflect the changes 
+
+if you do not want 
+
+
+
+
+

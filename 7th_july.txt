@@ -1,0 +1,17 @@
+Today's class:
+
+1)download the starterkit from the chef-server and copy the .chef folder to your local machine
+2)Once it is copied then it can interact with the chef server using knife command line tool.
+3)we will write recipes and cookbooks in our machine and then we will say knife cookbook upload *
+4)after that we will add the nodes into the server 
+5)Once this setup is done, each and every half an hours chef-server triggers the event i.e
+6)it will check each and every is there any update on the runlist, if update is there it will 
+7)execute it on the server/node, if there is no update it will skip the node and then move to 
+other node.
+8)manually we can also login to the node and execute the command : sudo chef-client
+
+----------------------------------------
+
+
+
+

@@ -1,0 +1,315 @@
+
+[root@ip-172-31-36-62 DEVOPS]# git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   DEVOPS
+        new file:   sam.txt
+
+[root@ip-172-31-36-62 DEVOPS]# cd DEVOPS
+[root@ip-172-31-36-62 DEVOPS]# ls
+1.txt         c.txt             hai.html     m.txt      t4.txt
+2.txt         DEVOPS            hai.md       nexus.txt  t5
+aaaaa.txt     dev-ravi.txt      hai.tr       nnnn.txt   test.css
+abcd.txt      dev.txt           hwww.txt     n.txt      test.html
+aboutus.css   docker.txt        i.txt        q.txt      vagrant.txt
+aboutus.html  eeeee.txt         jenkins.txt  README.md  venkateswara.txt
+bbbbb.txt     fffff.txt         master       sir.txt    zesus.amen
+bcd.txt       gg.txt            maven.txt    t1.txt     zesus.txt
+b.txt         gitinstallation   mmmm.txt     t2.txt     zesuz.txtt
+cdef.txt      git_tutorial.pdf  mm.txt       t3.txt
+[root@ip-172-31-36-62 DEVOPS]# cd /
+[root@ip-172-31-36-62 /]# pwd
+/
+[root@ip-172-31-36-62 /]# git clone https://github.com/sekharreddychanda/DEVOPS.                                             git
+Cloning into 'DEVOPS'...
+remote: Counting objects: 73, done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 73 (delta 17), reused 0 (delta 0), pack-reused 36
+Unpacking objects: 100% (73/73), done.
+Checking connectivity... done.
+[root@ip-172-31-36-62 /]# ls
+bin     dev      etc   lib64       media  proc  sbin     sys  var
+boot    deveops  home  local       mnt    root  selinux  tmp
+cgroup  DEVOPS   lib   lost+found  opt    run   srv      usr
+[root@ip-172-31-36-62 /]# cd DEVOPS
+[root@ip-172-31-36-62 DEVOPS]# ls
+1.txt         c.txt             hai.html     m.txt      t4.txt
+2.txt         DEVOPS            hai.md       nexus.txt  t5
+aaaaa.txt     dev-ravi.txt      hai.tr       nnnn.txt   test.css
+abcd.txt      dev.txt           hwww.txt     n.txt      test.html
+aboutus.css   docker.txt        i.txt        q.txt      vagrant.txt
+aboutus.html  eeeee.txt         jenkins.txt  README.md  venkateswara.txt
+bbbbb.txt     fffff.txt         master       sir.txt    zesus.amen
+bcd.txt       gg.txt            maven.txt    t1.txt     zesus.txt
+b.txt         gitinstallation   mmmm.txt     t2.txt     zesuz.txtt
+cdef.txt      git_tutorial.pdf  mm.txt       t3.txt
+[root@ip-172-31-36-62 DEVOPS]# touch ram.txt
+[root@ip-172-31-36-62 DEVOPS]# git add .
+[root@ip-172-31-36-62 DEVOPS]# git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ram.txt
+
+[root@ip-172-31-36-62 DEVOPS]# git commit -m "ram file"
+[master d840844] ram file
+ Committer: root <root@ip-172-31-36-62.us-west-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ram.txt
+[root@ip-172-31-36-62 DEVOPS]# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sekharreddychamda
+Password for 'https://sekharreddychamda@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/sekharreddychanda/DEVOPS.gi                                             t/'
+[root@ip-172-31-36-62 DEVOPS]# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sekharreddychanda
+Password for 'https://sekharreddychanda@github.com':
+Counting objects: 2, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 248 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To https://github.com/sekharreddychanda/DEVOPS.git
+   03708ba..d840844  master -> master
+[root@ip-172-31-36-62 DEVOPS]# ^C
+[root@ip-172-31-36-62 DEVOPS]# vi drf.txt
+[root@ip-172-31-36-62 DEVOPS]# cat drf.txt
+i.html     m.txt      t4.txt
+2.txt         DEVOPS            hai.md       nexus.txt  t5
+aaaaa.txt     dev-ravi.txt      hai.tr       nnnn.txt   test.css
+abcd.txt      dev.txt           hwww.txt     n.txt      test.html
+aboutus.css   docker.txt        i.txt        q.txt      vagrant.txt
+aboutus.html  eeeee.txt         jenkins.txt  README.md  venkateswara.txt
+bbbbb.txt     fffff.txt         master       sir.txt    zesus.amen
+bcd.txt       gg.txt            maven.txt    t1.txt     zesus.txt
+b.txt         gitinstallation   mmmm.txt     t2.txt     zesuz.txtt
+cdef.txt      git_tutorial.pdf  mm.txt       t3.txt
+[root@ip-172-31-36-62 DEVOPS]# touch ram.txt
+[root@ip-172-31-36-62 DEVOPS]# git add .
+[root@ip-172-31-36-62 DEVOPS]# git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ram.txt
+
+[root@ip-172-31-36-62 DEVOPS]# git commit -m "ram file"
+[master d840844] ram file
+ Committer: root <root@ip-172-31-36-62.us-west-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ram.txt
+[root@ip-172-31-36-62 DEVOPS]# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sekharreddychamda
+Password for 'https://sekharreddychamda@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/sekharreddychanda/DEVOPS.git/'
+[root@ip-172-31-36-62 DEVOPS]# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sekharreddychanda
+Password for 'https://sekharreddychanda@github.com':
+Counting objects: 2, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 248 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To https://github.com/sekharreddychanda/DEVOPS.git
+   03708ba..d840844  master -> master
+[root@ip-172-31-36-62 DEVOPS]#
+
+[root@ip-172-31-36-62 DEVOPS]# push
+-bash: push: command not found
+[root@ip-172-31-36-62 DEVOPS]# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sekharreddychanda
+Password for 'https://sekharreddychanda@github.com':
+Everything up-to-date
+[root@ip-172-31-36-62 DEVOPS]# git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        drf.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-172-31-36-62 DEVOPS]# git add .
+[root@ip-172-31-36-62 DEVOPS]# git commit -m "drf file"
+[master 244705a] drf file
+ Committer: root <root@ip-172-31-36-62.us-west-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 95 insertions(+)
+ create mode 100644 drf.txt
+[root@ip-172-31-36-62 DEVOPS]# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sekharreddychanda
+Password for 'https://sekharreddychanda@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.59 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/sekharreddychanda/DEVOPS.git
+   d840844..244705a  master -> master
+[root@ip-172-31-36-62 DEVOPS]#
