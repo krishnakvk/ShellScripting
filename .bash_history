@@ -171,3 +171,217 @@ cd templates
 s
 ls
 cat default.erb
+pwd
+git init 
+yum intall git 
+yum install git 
+git --version
+pwd
+git init 
+ls -a
+pwd
+cd .git
+ls
+cd ..
+pwd
+git status
+git add .
+git status
+git commit -m "adding all the files"
+git status
+clear
+git status
+ls
+pwd
+git status
+clear
+git status
+git statusdfadsfsfsd
+cd /etc/puppet
+sl
+cd modules
+ls
+cd logstash
+ls
+cd cd spec
+cd spec
+ls
+cd defines
+sl
+ls
+cat config_spec.rb 
+ls
+cat instance_spec.rb 
+clear
+knife --verssion
+knife
+chef
+curl -L http://www.opscode.com/chef/install.sh | sudo bash
+knife --version
+chef-client
+chef-client --version
+chef-serer --verson
+chef-server --version
+clear
+cd /etc/chef-repo
+ls
+find / - name chef-repo
+find / -name chef-repo
+cd /root
+ls
+find / -name chef
+cd /opt
+ls
+cd chef
+ls
+cd ..
+cd /var
+ls
+cd chef
+ls
+find / -name .chef
+wget http://github.com/opscode/chef-repo/tarball/master
+tar -zxf master
+mv chef-chef-repo* chef-repo
+rm master
+cd chef-repo/
+mkdir .chef
+echo "cookbook_path [ '/root/chef-repo/cookbooks' ]" > .chef/knife.rb
+knife cookbook create test
+pwd
+cd ..
+ls
+cd ~
+curl -L https://www.opscode.com/chef/install.sh | bash
+wget http://github.com/opscode/chef-repo/tarball/master
+tar -zxf master
+mv chef-chef-repo* chef-repo
+rm master
+cd chef-repo/
+mkdir .chef
+echo "cookbook_path [ '/root/chef-repo/cookbooks' ]" > .chef/knife.rb
+knife cookbook create tests
+ls 
+cd cookbooks
+ls
+cd test
+ls
+cd recipes
+ls
+cat default.rb
+vi default.rb
+chef-apply default.rb
+cat default.rb
+clear
+cat default.rb
+vi default.rb
+chef-apply default.rb
+cd ..
+ls
+cd .chef
+ls
+clear
+ls
+cat knife.rb
+knife cookbook create ourcookbook
+knife role create db
+export EDITOR=vi
+knife role create db
+clear
+knife cookbook list
+cd ..
+knife role create new
+ls 
+clear
+cd cookbooks 
+ls
+knife cookbook create mytest
+knife cookbook create mycookbook
+knife cookbook create testcookbook
+;s
+ls
+pwd
+cd test
+ls
+cd recipes 
+ls
+ cat default.rb
+cd ..
+ls
+ls -a
+cd .chef
+ls
+vi knife.rb
+ls
+vi devopsscmminds.pem
+knife clinet list
+knife node list
+knife client list
+knife upload *
+knife cookbook upload *
+pwd
+cd ..
+knife cookbook upload *
+cd cookbooks
+ls
+knife cookbook upload *
+knife role list
+knife env list
+knife environment list
+_default
+e2e
+qa
+sit
+stg
+uat
+clear
+cd /etc/puppet
+cd logstash
+ls
+cd logstash
+cd modules
+ls
+cd logstash
+ls
+cd spec
+ls
+cat defines
+cd defines
+ls 
+cd ..
+ls
+git init
+git remote add test https://github.com/telmerobert/DevOpseighttonine.git
+git remote -v
+git status
+git add .
+git commit -m "adding all the files"
+git status
+git push test
+git push test master 
+git pull test master
+git status 
+git push test master
+git status 
+ls
+vi test.sh
+chmod 755 test.sh
+./test.sh
+vi test.sh
+./test.sh
+vi read.sh
+chmod 755 read.sh
+./read.sh
+hostname
+ipaddress
+vi test.sh
+./test.sh
+vi test.sh
+./test.sh
+vi menu.sh
+chmod 755 menu.sh
+./menu.sh
+vi test.sh
+./test.sh
+vi test.sh
+./test.sh
